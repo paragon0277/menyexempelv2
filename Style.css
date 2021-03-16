@@ -1,0 +1,103 @@
+html {
+    background: black;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: cyan;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: cyan;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: darkgrey;
+}
+
+.show {
+  display: block;
+}
+
+.mainMainTitle {
+    font-size: 30px;
+    font-family: Impact;
+    color:black;
+    background-color: cyan;
+}
+.image {
+    position: relative;
+    top: 200px;
+}
+
+.sub {
+    color: black;
+    font-size: 20;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+}
+
+.image {
+  background-image: URL("startpageImage.jpg");
+  padding-bottom: 650px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.StartpageTitle {
+  font-size: 90px;
+  color: black;
+  background-color: green;
+}
+
+.smalltext {
+  font-size: 15px;
+}

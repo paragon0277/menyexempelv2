@@ -1,0 +1,152 @@
+<!DOCTYPE html> <html> <head>
+
+<title>Exempel 1 navigation bar</title>
+
+<meta charset = "utf-8" />
+
+<script>
+//startpage
+//first menu
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  //second menu
+  function mySecondFunction() {
+    document.getElementById("mySecondDropdown").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var mySecondDropdown = document.getElementById("mySecondDropdown");
+      if (mySecondDropdown.classList.contains('show')) {
+        mySecondDropdown.classList.remove('show');
+      }
+    }
+  }
+</script>
+
+<link href = "css/navigation.css" rel="stylesheet" type="text/css" />
+
+    <title>Webbens utveckling uppgift</title>
+    <link rel=stylesheet href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+        <body>
+        <h1 class="mainMainTitle">Menyexempel</h1>
+        <div class="navbar">
+          <a href="index.html">Startsida</a>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Dropdown meny
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="news.html">Nyheter</a>
+              <a href="about.html">Om oss</a>
+              <a href="contacts.html">Kontakt</a>
+            </div>
+            </div>
+        </div>   
+
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat
+
+et elit blandit lobortis a a neque. Fusce lacus nisi, vulputate quis vulputate
+
+vel, aliquam vitae libero. Sed congue ligula quis turpis tincidunt ut
+
+ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla tristique.
+
+Mauris lacinia venenatis commodo. Curabitur scelerisque pharetra facilisis.
+
+Donec et iaculis nunc. Curabitur rhoncus iaculis diam, rutrum faucibus
+
+magna cursus in. Vestibulum eu consectetur magna.
+
+</p>
+
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id
+
+leo scelerisque hendrerit non non dui. Integer condimentum quam sed tellus
+
+ultricies a aliquam elit ornare. Curabitur ac libero et sapien feugiat
+
+porta vitae sed lorem. In faucibus imperdiet neque, sit amet accumsan
+
+ante elementum tincidunt. Proin tincidunt massa at leo tincidunt consectetur.
+
+Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante.
+
+Sed eget tellus dui, eget sodales lectus.
+
+</p>
+
+</div><!--leftcol slutar-->
+
+<div class="rightcol">
+
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat
+
+et elit blandit lobortis a a neque. Fusce lacus nisi, vulputate quis vulputate
+
+vel, aliquam vitae libero. Sed congue ligula quis turpis tincidunt ut
+
+ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla tristique.
+
+Mauris lacinia venenatis commodo. Curabitur scelerisque pharetra facilisis.
+
+Donec et iaculis nunc. Curabitur rhoncus iaculis diam, rutrum faucibus
+
+magna cursus in. Vestibulum eu consectetur magna.
+
+</p>
+
+<p><img src="img/andreas.jpg" height="300" width="201" alt="Foto" />
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id
+
+leo scelerisque hendrerit non non dui. Integer condimentum quam sed tellus
+
+ultricies a aliquam elit ornare. Curabitur ac libero et sapien feugiat
+
+porta vitae sed lorem. In faucibus imperdiet neque, sit amet accumsan
+
+ante elementum tincidunt. Proin tincidunt massa at leo tincidunt consectetur.
+
+Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante.
+
+Sed eget tellus dui, eget sodales lectus.
+
+</p>
+
+<div class="push"></div>
+
+</div><!--rightcol slutar-->
+
+</div><!--wrapper2col slutar-->
+
+<footer class="footer">
+
+<p>All rights reserved - &#169; Copyright</p>
+
+</footer>
+
+</div><!--wrapper slutar-->
+
+</body>
+
+</html>
