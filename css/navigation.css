@@ -1,4 +1,4 @@
-ul {
+.navbar {
 list-style-type: none;
 @media
 margin: 0;
@@ -11,11 +11,11 @@ p {
 color: white;
 }
 
-li {
+.navbar li {
 float: left;
 }
 
-li a {
+.navbar li a {
 display: block;
 color: darkgrey;
 text-align: center;
@@ -23,7 +23,7 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-li a:hover {
+.navbar li a:hover {
 background-color: orange;
 }
 
