@@ -1,19 +1,19 @@
 .unordered {
-list-style-type: square;
-line-height: 170%;
-background: #AF0CFF;
-padding: 20px;
-width: 20%;
-font-family: Arial, Helvetica, sans-serif;
+list-style-type: square; !important
+line-height: 170%; !important
+background: #AF0CFF; !important
+padding: 20px; !important
+width: 20%; !important
+font-family: Arial, Helvetica, sans-serif; !important
 }
 
 .unordered li {
-background: #D888FF;
-margin: 5px;
+background: #D888FF; !important
+margin: 5px; !important
 }
 
 .nested-ul {
-list-style-type: circle;
-background: #EECBFF;
-margin: 5px;
+list-style-type: circle; !important
+background: #EECBFF; !important
+margin: 5px; !important
 }
