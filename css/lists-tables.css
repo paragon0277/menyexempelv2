@@ -1,19 +1,19 @@
 .unordered {
 list-style-type: square; !important
 line-height: 170%; !important
-background: #AF0CFF; !important
+background-color: #AF0CFF; !important
 padding: 20px; !important
 width: 20%; !important
 font-family: Arial, Helvetica, sans-serif; !important
 }
 
 .unordered li {
-background: #D888FF; !important
+background-color: #D888FF; !important
 margin: 5px; !important
 }
 
 .nested-ul {
 list-style-type: circle; !important
-background: #EECBFF; !important
+background-color: #EECBFF; !important
 margin: 5px; !important
 }
