@@ -47,7 +47,7 @@
     counter-increment: step-counter;
     margin-bottom: 10px;
 }
-.custom-box-list li::before {
+.custom-box-list {
     content: counter(step-counter);
     margin-right: 5px;
     font-size: 80%;
