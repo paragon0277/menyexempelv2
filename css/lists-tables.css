@@ -12,15 +12,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .unordered li {
-  background-color: #D888FF;
+  background: #D888FF;
   margin: 5px;
 }
 .nested-ul li {
-  background-color: #EECBFF;
+  background: #EECBFF;
   margin: 5px;
 }
 .ordered {
-  background-color: #FD8A00;
+  background: #FD8A00;
   padding: 20px;
   width: 20%;
   font-family: 'Brush Script MT', cursive;
@@ -28,7 +28,7 @@
 }
 
 .ordered li {
-  background-color: #FFCF95;
+  background: #FFCF95;
   padding: 5px;
   margin-left: 20px;
 }
