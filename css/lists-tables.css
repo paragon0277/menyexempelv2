@@ -7,19 +7,16 @@
 }
 .unordered {
   background-batch: #AF0CFF;
-  background-color: yellow;
   padding: 20px;
   width: 30%;
   font-family: Arial, Helvetica, sans-serif;
 }
 .unordered li {
   background: #D888FF;
-  background-color: yellow !important;
   margin: 5px;
 }
 .nested-ul li {
   background: #EECBFF;
-  background-color: red;
   margin: 5px;
 }
 .ordered {
