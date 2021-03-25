@@ -1,5 +1,5 @@
 html {
-    background: black;
+    background: white;
 }
 
 .navbar {
@@ -75,12 +75,10 @@ html {
 }
 
 .sub {
-    color: black;
     font-size: 20;
 }
 
 .text {
-  color: black;
   font-size: 25px;
 }
 
@@ -94,7 +92,6 @@ html {
 
 .StartpageTitle {
   font-size: 90px;
-  color: black;
   background-color: green;
 }
 
