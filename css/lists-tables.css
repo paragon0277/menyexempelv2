@@ -17,6 +17,8 @@ line-height: 170%;
 }
 
 .list-image li:before {
+  
+color: red;
 
 content: '';
 
