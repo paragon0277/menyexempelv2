@@ -142,3 +142,59 @@ transform: translateY(-50%);
 
 }
 
+
+table, th,td {
+
+border: 1px solid black;
+
+border-collapse: collapse;
+
+}
+
+th,td {
+
+padding: 5px;
+
+text-align: center;
+
+}
+
+caption {
+
+caption-side: top;
+
+text-align: center;
+
+font-style: italic;
+
+font-weight: bold;
+
+color: grey;
+
+}
+
+.table-simple th {
+
+background-color: black;
+
+color: white;
+
+}
+
+.table-simple tr:nth-child(even) {
+
+background-color: white;
+
+}
+
+.table-simple tr:nth-child(odd) {
+
+background-color: red;
+
+}
+
+.table-simple tr:hover {
+
+background-color: orange;
+
+}
