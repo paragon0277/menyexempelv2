@@ -198,3 +198,39 @@ background-color: red;
 background-color: orange;
 
 }
+
+ .head-body-foot thead {
+
+color: purple;
+
+background-color: rgb(203, 236, 213);
+
+}
+
+.head-body-foot tbody {
+
+color: rgb(222, 212, 182);
+
+font-weight: bold;
+
+background-color: rgb(68, 139, 127);
+
+}
+
+.head-body-foot tfoot {
+
+color: rgb(5, 4, 0);
+
+background-color: rgb(127, 131, 233);
+
+font-weight:bold ;
+
+}
+
+ .head-body-foot thead:hover {
+
+background-color: red;
+
+}
+
+
