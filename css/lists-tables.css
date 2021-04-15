@@ -236,6 +236,6 @@ background-color: red;
 .scroll-bar {
 
 overflow: auto;
-  position: relative;
+  position: absolute;
   
 }
