@@ -234,7 +234,8 @@ background-color: red;
 }
 
 .scroll-bar {
-
+  
+  width: 60%;
   overflow-x: scroll;
   
 }
