@@ -233,4 +233,9 @@ background-color: red;
 
 }
 
+.scroll-bar {
+
+overflow-x: auto;
+  
+}
 
